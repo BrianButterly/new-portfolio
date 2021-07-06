@@ -1,12 +1,13 @@
 import React from "react";
+import logo from "../logo.png"
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#" style={{ color: "white" }}>
-            Place Logo Here
+          <a className="navbar-brand" href="">
+            <img className="logo" src={logo} alt="logo..." />
           </a>
           <button
             className="navbar-toggler"
@@ -22,12 +23,12 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="">
                   Link
                 </a>
               </li>
