@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#" style={{color: "white"}}>
+          <a className="navbar-brand" href="#" style={{ color: "white" }}>
             Place Logo Here
           </a>
           <button
